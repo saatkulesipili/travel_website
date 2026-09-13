@@ -16,3 +16,21 @@
 .img_general_logo{
     width: 84px;
 }
+
+.top_navbar{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 11px 0px;
+    margin: 0px 7px;
+}
+
+.para_top_navbar{
+    color: rgb(0, 0, 0, 0.54);
+    font-weight: 600;
+}
+
+.icon_topnavbar {
+    color: rgb(245, 99, 99);
+    margin: 0 9px !important; /* ? */
+}
