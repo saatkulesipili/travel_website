@@ -10,12 +10,9 @@
 .header {
     width: 100%;
     height: 100%;
-    background-color: rgb(34, 72, 35);
+    background-color: rgb(37, 104, 35);
 }
 
-.img_general_logo{
-    width: 84px;
-}
 
 .top_navbar{
     height: 100%;
@@ -42,5 +39,61 @@
     font-weight: 500;
     margin: 10px 4px;
 }
+.dropdown {
+    position: relative;
+}
 
-dropdown-menu
+.dropdown-menu {
+    padding: 6px 8px;
+    width: 220px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-item{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 12px;
+    margin: 2px 0px;
+    color: rgb(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.038);
+}
+
+.dropdown-item:last-child {
+    border-bottom: 0; /* Son elemanın alt çizgisini otomatik siler, HTML'e class yazman gerekmez */
+}
+
+.nav-link:hover{
+    color:rgb(225, 89, 89);
+}
+
+.dropdown-item:hover {
+     color:rgb(225, 89, 89);
+     background-color: rgb(223, 242, 200);
+     border-radius: 4%; 
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px 15px;
+}
+
+.navbar-brand img {
+    width: 84px;
+    height: auto; /* Oranı bozulmadan ölçeklenir */
+    border-radius: 4px;
+}
