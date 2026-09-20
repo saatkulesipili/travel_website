@@ -135,3 +135,94 @@ transition: 0.4s ease-in;
     width: 100%;
 }
 
+.home_section {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.content_home {
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-1 {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)), 
+    url(./img/cappadocia_2.jpg);
+}
+
+.img-2 {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)), 
+    url(./img/cappadocia_1.jpg);
+}
+
+.text_content_home {
+    text-align: center;
+}
+
+.section_title {
+    position: relative;
+    display: inline-block;
+}
+
+.section_title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background-color: red;
+    border-radius: 5px;
+    
+}
+
+.section_title::after {
+    position:absolute;
+    content: "";
+    width: 45px;
+    height:2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.heading_home {
+    font-size: 65px;
+    font-weight:900;
+    letter-spacing: 3px;
+}
+
+.btn_home_content {
+    /* background-color: tomato; */
+    background-color: rgb(240, 140, 47);
+    color: rgb(0, 0, 0, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 14px 0px;
+    border-radius: 3px !important;
+    transition: 0.2s ease;
+}
+
+
+.btn_home_content:hover {
+    background-color: rgb(255, 194, 108);
+    color: rgb(0, 0, 0, 0.75);
+    
+}
+
+
