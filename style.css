@@ -222,7 +222,21 @@ transition: 0.4s ease-in;
 .btn_home_content:hover {
     background-color: rgb(255, 194, 108);
     color: rgb(0, 0, 0, 0.75);
+    color: aliceblue;
     
 }
 
+
+
+.slider_icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(2, 10, 83, 0.56);
+    font-size: 20px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
 
