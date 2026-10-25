@@ -711,3 +711,121 @@ label {
     font-weight: 400;
     font-size: 13spx;
 }
+
+
+.our_team {
+    width: 100%;
+    height: 80vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading_title {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(240, 140, 47);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.heading_lg_title {
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.team_content_container {
+    width: 100%;
+    height: 430px;
+    box-shadow: 2px 2px 21px rgba(128, 128, 128, 0.192);
+    margin: 20px 0px;
+    border-radius: 3px !important;
+    position: relative;
+}
+
+.img_team_member {
+    width: 100%;
+    height: 300px;
+   /*  background-color: red; */
+}
+
+.img_member_1 {
+   border-radius: 4px 4px 0px 0px;
+   background-image: url(./img/our_team_1.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.img_member_2 {
+   border-radius: 4px 4px 0px 0px;
+   background-image: url(./img/our_team_2.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.img_member_3 {
+   border-radius: 4px 4px 0px 0px;
+   background-image: url(./img/our_team_3.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.img_member_4 {
+   border-radius: 4px 4px 0px 0px;
+   background-image: url(./img/our_team_4.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.social_icons_team {
+    width: 100%;
+    height: 30px;
+    /* background-color: rgba(111, 19, 203, 0.5); */
+    position: absolute;
+    bottom: 115px;
+    /* padding: 0px 8px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_icons_team a {
+    background-color: rgba(164, 118, 18, 0.7);
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    margin: 0px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 19px;
+    text-decoration: none !important;
+}
+
+.team_section_heading {
+       width: 100%;
+       height: 120px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+}
+
+.heading_name {
+    margin: 10px 0px;
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.heading_sm_name {
+    font-size: 15px;
+    color: rgb(0, 0, 0, 0.64);
+}
