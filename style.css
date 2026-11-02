@@ -829,3 +829,91 @@ label {
     font-size: 15px;
     color: rgb(0, 0, 0, 0.64);
 }
+
+
+.footer_area {
+    background-color: rgb(14, 39, 55);
+    margin-top: 40px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.footer_container {
+    width: 90%;
+    margin: 0 13px;
+}
+
+
+.logo_footer {
+    color: rgb(193, 188, 188);
+    font-size: 33px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.footer_container h3 {
+    color: rgb(160, 160, 97);
+    font-size: 23px;
+    margin: 25px 0;
+   
+}
+
+.para_footer_1 {
+    color: rgba(193, 188, 188, 0.6);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 7px 0px;    
+}   
+
+.para_footer_2 {
+    color: rgba(193, 188, 188, 0.8);
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.blogs_section_footer {
+    color: white;
+}
+
+.blogs_footer {
+    color: white !important;
+    font-weight: 600;
+    margin-bottom: 36px !important;
+
+}
+
+
+.blog_title {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.para_blogs_footer {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 14px 0px;
+}
+
+.links-item_footer {
+    text-decoration: none;
+    color: bisque;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+
+.links-item_footer span {
+    padding: 0px 4px;
+    font-size: 13px;
+}
+
+.links-item_footer:hover {
+    letter-spacing: 2px;
+}
