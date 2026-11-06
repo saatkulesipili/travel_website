@@ -1,3 +1,7 @@
+body {
+    background-color: #f5f2e9;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -463,6 +467,7 @@ label {
 }
 
 .services_container {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -817,6 +822,8 @@ label {
     height: auto;
     min-height: 50vh;
     padding: 30px 0;
+    background-color: #1f2a24;
+
 
 }
 
