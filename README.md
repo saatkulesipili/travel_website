@@ -1,70 +1,58 @@
-🎈 Discover Cappadocia
+<p align="center">
+  <img src="./img/skp_logo.png" alt="Discover Cappadocia Logo" width="120" style="border-radius: 8px;">
+</p>
 
-A modern, responsive tourism and tour booking web application showcasing the magical landscapes, hotels, and unforgettable adventures of Cappadocia.
+<h1 align="center">Discover Cappadocia | Tours & Activities</h1>
 
-📖 About The Project
+<p align="center">
+  A modern, responsive tourism and travel agency web application designed for exploring Cappadocia's breathtaking landscapes, hot air balloons, and cultural tours.
+</p>
 
-Discover Cappadocia is a feature-rich travel and tour agency frontend template designed for tourists looking to explore the historic valleys, hot air balloons, and cultural workshops of Cappadocia, Türkiye.
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#features">Features</a> •
+  <a href="#technologies">Technologies</a> •
+  <a href="#project-structure">Project Structure</a> •
+  <a href="#getting-started">Getting Started</a>
+</p>
 
-This project features a clean, responsive layout built with modern CSS and Bootstrap 5, offering smooth carousels, a dynamic tour search widget, destination highlights, guest testimonials, and team showcases.
+---
 
-✨ Key Features
+## 🌍 About
 
-Responsive Design: Fully optimized for mobile, tablet, and desktop viewing using custom media queries and Bootstrap grid systems.
+**Discover Cappadocia** is a front-end web application crafted to offer users an immersive journey into the heart of Turkey's magical region, Cappadocia. From sunrise hot air balloon flights and ATV safaris to historical red/green tours and pottery workshops, the platform provides seamless tour browsing, filtering, and booking experiences.
 
-Hero Slider: Engaging multi-slide carousel featuring high-impact visual backgrounds and quick call-to-action buttons.
+---
 
-Interactive Tour Search Bar: Allows users to filter tours by date, activity, and number of guests.
+## ✨ Features
 
-About Section: Highlights key agency stats (e.g., ATV safaris, horseback riding, pottery workshops) paired with gorgeous grid imagery.
+- **Interactive Hero Carousel:** Stunning visuals showcasing the magic of Türkiye and Cappadocia adventures.
+- **Tour Search & Filtering Form:** Quick selection tool for tour dates, specific activities, and guest counts.
+- **Service Showcases:** Dedicated sections highlighting top experiences (Hot Air Balloons, ATV Safaris, Horse Riding, Red Tours, Pottery Workshops).
+- **Destination Guide:** Curated cards exploring famous spots like Göreme Open Air Museum, Love Valley, Paşabağ Valley, and Uçhisar Castle.
+- **Testimonials Slider:** Guest reviews and ratings from satisfied travelers.
+- **Meet the Team:** Introduction to professional coordinators, heritage guides, and expedition leaders.
+- **Fully Responsive Design:** Optimized layouts providing seamless user experiences across desktop, tablet, and mobile devices.
 
-Destinations Grid: Showcases iconic locations including Göreme Open Air Museum, Love Valley, Paşabağ Valley, and Uçhisar Castle.
+---
 
-Testimonials Carousel: Customer review slides highlighting guest satisfaction.
+## 🛠️ Technologies
 
-Team Showcase: Highlights coordinators and tour leaders with social media links.
+This project is built using modern front-end web standards:
 
-Multi-column Footer: Contains quick links, company policy pages, latest blog updates, and direct contact details.
+* **HTML5** & **CSS3** (Custom styling with modular structure)
+* **Bootstrap 5.3.8** (Responsive grid system and UI components)
+* **Font Awesome 6.5.1** (Modern iconography)
+* **Google Fonts** (Roboto typography)
 
-🛠️ Built With
+---
 
-HTML5 – Structure and semantic markup
+## 📁 Project Structure
 
-CSS3 – Custom styling (style.css and responsive.css)
-
-Bootstrap 5.3.8 – Responsive layout components and grid utilities
-
-Font Awesome 6.5.1 – Vector icons for contact, social media, and navigation
-
-📂 Project Structure
-
-├── index.html          # Main landing page markup
-├── style.css           # Core stylesheet and custom animations
-├── responsive.css      # Media queries for tablet and mobile devices
-└── img/                # Image assets (logos, banner photos, team members, etc.)
-
-
-🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps:
-
-Clone the repository:
-
-git clone https://github.com/saatkulesipili/discover_cappadocia.git
-
-
-Navigate to the project directory:
-
-cd discover_cappadocia
-
-
-Open the project:
-Simply open index.html in your favorite web browser or run it via a Live Server extension (e.g., in Visual Studio Code).
-
-📬 Contact
-
-Project Link: https://github.com/saatkulesipili/discover_cappadocia
-
-Email: info@saatkulesipili.com
-
-Location: Göreme / Nevşehir, Türkiye
+```text
+minimal_yasam_urunleri/
+│
+├── index.html          # Main HTML structure
+├── style.css           # Core styling rules
+├── responsive.css      # Media queries and mobile layout adjustments
+└── img/                # Image assets (tours, team members, destinations)
