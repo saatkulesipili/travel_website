@@ -51,7 +51,7 @@ This project is built using modern front-end web standards:
 You can watch the project preview below:
 
 
-
+https://github.com/user-attachments/assets/aa04f6f0-14d9-460a-9a82-ad4f7485ee90
 
 
 
@@ -69,3 +69,4 @@ minimal_yasam_urunleri/
 └── img/                # Image assets (tours, team members, destinations)
 
 
+introduction
